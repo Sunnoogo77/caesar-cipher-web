@@ -1,1 +1,53 @@
+Voici une version concise et optimisée pour un post LinkedIn :  
 
+---
+
+🔐 **Comprendre la cryptographie avec un projet simple : le Cipher de César**  
+
+La cryptographie, c’est l’art de rendre un message incompréhensible pour le protéger des regards indiscrets. Avec la bonne clé, on peut le déchiffrer et le rendre lisible. 🔒  
+
+C’est une pratique cruciale, utilisée au quotidien :  
+- 🔑 Chiffrement des emails  
+- 🔑 Protection des bases de données  
+- 🔑 Transactions bancaires en ligne  
+
+Mais saviez-vous que ses racines remontent à l’Antiquité ? 📜 L’un des premiers algorithmes connus est le **Cipher de César**, utilisé par Jules César pour ses communications secrètes.  
+
+---
+
+### **Mon projet : un Cipher de César moderne**  
+Pour explorer les bases de la cryptographie, j’ai développé un projet en Python. 🚀  
+Fonctionnalités principales :  
+1️⃣ **Chiffrement** : Transformez un message en texte codé grâce à une clé.  
+2️⃣ **Déchiffrement** : Retrouvez le message original avec la clé.  
+3️⃣ **Clés aléatoires** : Génération automatique pour plus de simplicité.  
+4️⃣ **Support étendu** : Lettres, chiffres et caractères spéciaux inclus.  
+
+---
+
+### **Backend (disponible sur GitHub)**  
+💻 Développé en Python avec une API qui permet :  
+- d’envoyer un message,  
+- de recevoir sa version chiffrée ou déchiffrée.  
+📂 **Lien du projet** : [À découvrir ici](#).  
+
+### **Frontend (bientôt disponible)**  
+Une interface web intuitive est en cours de développement pour simplifier l’utilisation.  
+
+---
+
+### **Pourquoi ce projet ?**  
+Bien sûr, le Cipher de César est **très basique** et facilement cassable.  
+👉 **L’objectif n’est pas de protéger des données sensibles**, mais de :  
+- 💡 **Démystifier la cryptographie**  
+- 💡 Montrer comment les algorithmes modernes comme RSA ou AES reposent sur ces principes fondamentaux.  
+
+---
+
+**Et vous ?**  
+Quel a été votre premier contact avec la cryptographie ? 💬  
+Partagez vos expériences en commentaires ! 😊  
+
+---  
+
+Ce format est prêt à être copié-collé sur LinkedIn et respecte les limites de longueur et de lisibilité. 😊
