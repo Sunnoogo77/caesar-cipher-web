@@ -108,48 +108,9 @@ Essai avec la clé 3 : Juppm, Xzrmf!
 
 ---
 
-## 🤝 **Contribution**  
-
-Les contributions sont les bienvenues ! Si vous souhaitez améliorer ce projet ou ajouter de nouvelles fonctionnalités :  
-1. **Forkez le dépôt**.  
-2. **Créez une branche** pour votre fonctionnalité :  
-   ```bash
-   git checkout -b feature/nouvelle-fonctionnalite
-   ```  
-3. **Soumettez une Pull Request** avec une description claire de vos changements.  
-
----
-
-## 📜 **Licence**  
-
-Ce projet est sous licence **MIT**. Consultez le fichier `LICENSE` pour plus d’informations.  
-
----
-
 ## 👤 **Auteur**  
 
-- **Votre Nom ou Pseudonyme**  
-  - GitHub : [Votre Profil GitHub](https://github.com/votre-utilisateur)  
+Pour toute question, suggestion ou collaboration, n'hésitez pas à me contacter via :  
 
----
-
-## 🌟 **Publiez Votre Projet sur GitHub**  
-
-### 1. Créez un Nouveau Dépôt sur GitHub :  
-- Connectez-vous à [GitHub](https://github.com) et cliquez sur **New** pour créer un dépôt nommé `caesar_cipher_project`.  
-
-### 2. Initialisez le Repository Localement :  
-```bash
-cd chemin/vers/votre/projet
-git init
-git add .
-git commit -m "Initial commit"
-git branch -M main
-git remote add origin https://github.com/votre-utilisateur/caesar_cipher_project.git
-git push -u origin main
-```  
-
-### 3. Ajoutez une Licence :  
-Choisissez une licence comme **MIT** directement via l’interface GitHub ou ajoutez un fichier `LICENSE` à la racine du projet.  
-
----
+- **[LinkedIn](https://www.linkedin.com/in/sunnoogo-caleb-tapsoba-130584292/)**  
+- **[GitHub](https://github.com/Sunnoogo77)**  
