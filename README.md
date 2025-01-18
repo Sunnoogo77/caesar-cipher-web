@@ -72,12 +72,38 @@ Votre choix :
 ## 📂 **Structure du Projet**  
 
 ```plaintext
-caesar_cipher_project/
-├── main.py                     # Point d'entrée principal du programme
-├── utils.py                    # Fonctions utilitaires pour le chiffrement/déchiffrement
-├── README.md                   # Documentation principale
-├── requirements.txt            # Liste des dépendances Python
-└── LICENSE                     # Licence du projet (facultatif)
+project-root/
+│
+├── backend/                  # Dossier pour le backend
+│   ├── app.py                # Fichier principal pour l'API Flask (ou autre backend Python)
+│   ├── requirements.txt      # Dépendances Python
+│   ├── cipher/               # Logiciel métier pour le chiffrement
+│   │   ├── __init__.py
+│   │   ├── caesar.py         # Contient le chiffrement/déchiffrement Caesar
+│   └── tests/                # Tests unitaires pour le backend
+│       ├── test_caesar.py
+│
+├── frontend/                 # Dossier pour le frontend (React + Vite)
+│   ├── public/               # Fichiers statiques (HTML, favicon, etc.)
+│   ├── src/                  # Code source de l'application React
+│   │   ├── components/       # Composants React
+│   │   │   ├── CaesarForm.jsx  # Formulaire pour entrer le message et la clé
+│   │   │   ├── ResultBox.jsx   # Affichage des résultats chiffrés/déchiffrés
+│   │   │   └── BruteForce.jsx  # Composant pour le mode "force brute"
+│   │   ├── pages/            # Pages principales de l'application
+│   │   │   ├── Home.jsx
+│   │   │   └── NotFound.jsx
+│   │   ├── services/         # Gestion des appels API vers le backend
+│   │   │   └── cipherAPI.js  # Méthodes pour interagir avec le backend
+│   │   ├── App.jsx           # Point d'entrée React
+│   │   ├── main.jsx          # Initialisation de l'application React
+│   │   └── styles/           # Fichiers CSS (ou SCSS, Tailwind, etc.)
+│   └── vite.config.js        # Configuration de Vite
+│
+├── .gitignore                # Fichiers et dossiers à ignorer par Git
+├── README.md                 # Documentation du projet
+└── package.json              # Dépendances et scripts du projet
+
 ```  
 
 ---
