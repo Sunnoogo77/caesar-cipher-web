@@ -12,3 +12,10 @@ def caesar_cipher_extended(text, shift, mode):
         else:
             result += char
     return result
+
+def brute_force_decrypt(text):
+    possibilities = []
+    for shift in range(len(SYMBOLS)):
+        decrypted_text = caesar_cipher_extended(text, shift, "decrypt")
+        possibilities.append({"key": shift, "decrypted_text": decrypted_text})
+    return possibilities
