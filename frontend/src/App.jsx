@@ -3,7 +3,7 @@ import CaesarForm from './components/CaesarForm';
 
 
 function App() {
-  return (//backgoudcolor bleu foncé
+  return (
     <div> 
       <CaesarForm />
     </div>
