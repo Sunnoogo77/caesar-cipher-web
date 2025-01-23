@@ -35,7 +35,7 @@ const CaesarForm = () => {
         try {
             const keyToSend = decryptKey ? Number(decryptKey) : null;
             const response = await decryptMessage(decryptText, keyToSend);
-
+            
             if (keyToSend !== null) {
                 setResult(`${response.data.decrypted}`);
             } else {
@@ -109,7 +109,7 @@ const CaesarForm = () => {
                     </button>
                 </div>
             </div>
-            
+
             {result && (
                 <div className="max-w-screen-xl flex mt-10 p-5 bg-gray-900 rounded-lg text-white  shadow-lg">
                     <button 
