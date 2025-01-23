@@ -46,7 +46,7 @@ def decrypt():
 
 
 @app.route('/encrypt-file', methods=['POST'])
-def encrypt():
+def encryptF():
     if 'file' not in request.files:
         return jsonify({"error": "Aucun fichier envoyé"}), 400
     
@@ -60,7 +60,7 @@ def encrypt():
     return jsonify({"error": "Fichier chiffré avec succès", "file": encrypted_path}), 200
 
 @app.route('/decrypt-file', methods=['POST'])
-def decrypt():
+def decryptF():
     if 'file' not in request.files:
         return jsonify({"error": "Aucun fichier envoyé"}), 400
     
