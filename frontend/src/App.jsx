@@ -7,8 +7,8 @@ function App() {
     return (
         <Router>
             <div className="container mx-auto p-4">
-                <nav className="flex justify-between items-center mb-6">
-                    <h1 className="text-2xl font-bold">Application de Chiffrement</h1>
+                <nav className="mb-12 flex justify-between items-center">
+                    <h1 className="text-2xl text-white font-bold">Application de Chiffrement</h1>
                     <div>
                         <Link 
                             to="/text-encryption" 

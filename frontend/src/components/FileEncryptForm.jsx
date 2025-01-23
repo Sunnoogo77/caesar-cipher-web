@@ -22,7 +22,7 @@ const FileEncryptForm = () => {
     };
 
     return (
-        <div className="container mx-auto p-4 w-full max-w-full mb-10 pt-5 pb-7 pr-20 pl-20 bg-slate-50 shadow-md rounded-lg">
+        <div className="container  mx-auto p-4 w-full max-w-full mb-10 pt-5 pb-7 pr-20 pl-20 bg-slate-50 shadow-md rounded-lg">
 
             {/* <input 
                 type="file" 
@@ -31,9 +31,9 @@ const FileEncryptForm = () => {
             /> */}
             
             <div class="flex items-center justify-center mt-7 w-full mb-5">
-                <label for="dropzone-file" class="flex flex-col items-center justify-center w-full h-64 border-2 border-gray-300 border-dashed rounded-lg cursor-pointer bg-gray-50 dark:hover:bg-gray-800 dark:bg-gray-700 hover:bg-gray-100 dark:border-gray-600 dark:hover:border-gray-500">
+                <label for="dropzone-file" class="flex flex-col items-center justify-center w-8/12 h-64 border-2 border-gray-300 border-dashed rounded-lg cursor-pointer bg-gray-50 dark:hover:bg-gray-800 dark:bg-gray-700 hover:bg-gray-100 dark:border-gray-600 dark:hover:border-gray-500">
                     <div class="flex flex-col items-center justify-center pt-5 pb-6">
-                        <svg class="w-8 h-8 mb-4 text-gray-500 dark:text-gray-400" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 20 16">
+                        <svg class="w-8/12 h-8 mb-4 text-gray-500 dark:text-gray-400" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 20 16">
                             <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 13h3a3 3 0 0 0 0-6h-.025A5.56 5.56 0 0 0 16 6.5 5.5 5.5 0 0 0 5.207 5.021C5.137 5.017 5.071 5 5 5a4 4 0 0 0 0 8h2.167M10 15V6m0 0L8 8m2-2 2 2"/>
                         </svg>
                         <p class="mb-2 text-sm text-gray-500 dark:text-gray-400"><span class="font-semibold">Click to upload</span> or drag and drop</p>
@@ -43,7 +43,7 @@ const FileEncryptForm = () => {
             </div> 
 
 
-            <div className="flex flex-nowrap space-x-20">
+            <div className="flex ml-36 mb-5 flex-nowrap space-x-20">
                 <button 
                     onClick={() => handleUpload('encrypt-file')} 
                     className="bg-blue-500 text-white ml-36 p-3 pr-20 pl-20 rounded">
@@ -56,25 +56,20 @@ const FileEncryptForm = () => {
                 </button>
             </div>
 
-            {message && <p className="mt-4 text-center">{message}</p>}
+            {message && <p className="mt-4 text-center mb-2 text-lg font-semibold">{message}</p>}
 
-            {/* {downloadUrl && (
-                <div className="mt-4 text-center">
-                    <a href={downloadUrl} className="text-blue-500 underline" download>
-                        Télécharger le fichier traité
-                    </a>
-                </div>
-            )} */}
             {downloadUrl && (
-                <div className="mt-4 text-center bg-gray-100 p-4 rounded">
-                    <p className="mb-2 text-lg font-semibold">Téléchargez votre fichier :</p>
+                <div className="ml-80 w-5/12 mt-4 mb-5 pb-5 text-center bg-gray-200 p-4 rounded">
+                    <p className="mb-2 text-lg font-semibold">Votre fichier est disponible ici :</p>
                     <a 
                         href={downloadUrl} 
-                        className="bg-blue-500 text-white px-4 py-2 rounded shadow-lg hover:bg-blue-700"
+                        className="bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded inline-flex items-center"
                         download>
-                        Télécharger le fichier
+                            <svg class="fill-current w-4 h-4 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M13 8V2H7v6H2l8 8 8-8h-5zM0 18h20v2H0v-2z"/></svg>
+                            <span>Télécharger</span>
                     </a>
                 </div>
+                
             )}
 
         </div>
