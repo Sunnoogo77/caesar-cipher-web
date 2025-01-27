@@ -43,7 +43,7 @@ const FileEncryptForm = () => {
             </div> 
 
 
-            <div className="flex ml-36 mb-5 flex-nowrap space-x-20">
+            <div className="flex ml-72 mb-5 flex-nowrap space-x-20">
                 <button 
                     onClick={() => handleUpload('encrypt-file')} 
                     className="bg-blue-500 text-white ml-36 p-3 pr-20 pl-20 rounded">
@@ -59,7 +59,7 @@ const FileEncryptForm = () => {
             {message && <p className="mt-4 text-center mb-2 text-lg font-semibold">{message}</p>}
 
             {downloadUrl && (
-                <div className="ml-80 w-5/12 mt-4 mb-5 pb-5 text-center bg-gray-200 p-4 rounded">
+                <div className="ml-96 w-5/12 mt-4 mb-5 pb-5 text-center bg-gray-200 p-4 rounded">
                     <p className="mb-2 text-lg font-semibold">Votre fichier est disponible ici :</p>
                     <a 
                         href={downloadUrl} 
